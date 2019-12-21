@@ -42,6 +42,7 @@
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // button1
@@ -120,7 +121,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(145, 159);
+            this.button7.Location = new System.Drawing.Point(177, 59);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 23);
             this.button7.TabIndex = 8;
@@ -165,7 +166,7 @@
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(185, 199);
+            this.button12.Location = new System.Drawing.Point(96, 196);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(75, 23);
             this.button12.TabIndex = 13;
@@ -215,5 +216,6 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
